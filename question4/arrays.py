@@ -12,12 +12,12 @@ def array(x,y,n):
 print("The array of Random Numbers:",array(x,y,n))
 
 #Sorting the array in ascending order
-x=array(x,y,n)
+m=array(x,y,n)
 for i in range(n):
     for j in range(i+1,n):
-        if x[i]>x[j]:
-            x[i],x[j]=x[j],x[i]
-print("The Ascending order of that array:",x)
+        if m[i]>m[j]:
+            m[i],m[j]=m[j],m[i]
+print("The Ascending order of that array:",m)
 
 
 
